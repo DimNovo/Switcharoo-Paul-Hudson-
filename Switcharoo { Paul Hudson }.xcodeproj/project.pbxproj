@@ -12,6 +12,13 @@
 		7442332B236693B1002E51A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7442332A236693B1002E51A3 /* Assets.xcassets */; };
 		7442332E236693B1002E51A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7442332D236693B1002E51A3 /* Preview Assets.xcassets */; };
 		74423331236693B1002E51A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7442332F236693B1002E51A3 /* Main.storyboard */; };
+		748B47C123693C3D00890693 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 748B47C023693C3D00890693 /* start.txt */; };
+		748B47C323693C4500890693 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 748B47C223693C4500890693 /* words.txt */; };
+		748B47C523693E6100890693 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B47C423693E6100890693 /* Letter.swift */; };
+		748B47C72369405A00890693 /* Bundle+WordLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B47C62369405A00890693 /* Bundle+WordLoading.swift */; };
+		74AB067F236D26A40004020D /* ShuffleTray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB067E236D26A40004020D /* ShuffleTray.swift */; };
+		74DC5408236D1544008A1FC1 /* GameNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC5407236D1544008A1FC1 /* GameNumber.swift */; };
+		74DC540A236D1896008A1FC1 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC5409236D1896008A1FC1 /* ResetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		74423330236693B1002E51A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74423332236693B1002E51A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74423333236693B1002E51A3 /* Switcharoo___Paul_Hudson__.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Switcharoo___Paul_Hudson__.entitlements"; sourceTree = "<group>"; };
+		748B47C023693C3D00890693 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		748B47C223693C4500890693 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		748B47C423693E6100890693 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		748B47C62369405A00890693 /* Bundle+WordLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+WordLoading.swift"; sourceTree = "<group>"; };
+		74AB067E236D26A40004020D /* ShuffleTray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleTray.swift; sourceTree = "<group>"; };
+		74DC5407236D1544008A1FC1 /* GameNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNumber.swift; sourceTree = "<group>"; };
+		74DC5409236D1896008A1FC1 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +70,16 @@
 			isa = PBXGroup;
 			children = (
 				74423326236693B0002E51A3 /* AppDelegate.swift */,
+				748B47C62369405A00890693 /* Bundle+WordLoading.swift */,
+				748B47C423693E6100890693 /* Letter.swift */,
+				74DC5407236D1544008A1FC1 /* GameNumber.swift */,
 				74423328236693B0002E51A3 /* ContentView.swift */,
+				74AB067E236D26A40004020D /* ShuffleTray.swift */,
+				74DC5409236D1896008A1FC1 /* ResetButton.swift */,
 				7442332A236693B1002E51A3 /* Assets.xcassets */,
 				7442332F236693B1002E51A3 /* Main.storyboard */,
+				748B47C023693C3D00890693 /* start.txt */,
+				748B47C223693C4500890693 /* words.txt */,
 				74423332236693B1002E51A3 /* Info.plist */,
 				74423333236693B1002E51A3 /* Switcharoo___Paul_Hudson__.entitlements */,
 				7442332C236693B1002E51A3 /* Preview Content */,
@@ -133,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74423331236693B1002E51A3 /* Main.storyboard in Resources */,
+				748B47C123693C3D00890693 /* start.txt in Resources */,
 				7442332E236693B1002E51A3 /* Preview Assets.xcassets in Resources */,
+				748B47C323693C4500890693 /* words.txt in Resources */,
 				7442332B236693B1002E51A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748B47C523693E6100890693 /* Letter.swift in Sources */,
+				74AB067F236D26A40004020D /* ShuffleTray.swift in Sources */,
+				74DC540A236D1896008A1FC1 /* ResetButton.swift in Sources */,
 				74423329236693B0002E51A3 /* ContentView.swift in Sources */,
+				748B47C72369405A00890693 /* Bundle+WordLoading.swift in Sources */,
+				74DC5408236D1544008A1FC1 /* GameNumber.swift in Sources */,
 				74423327236693B0002E51A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
